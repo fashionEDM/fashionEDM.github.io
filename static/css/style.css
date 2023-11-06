@@ -87,6 +87,7 @@ body::-webkit-scrollbar {
 
 #navbar a:hover {
     color: gray;
+    cursor: pointer;
 }
 
 .sticky {
