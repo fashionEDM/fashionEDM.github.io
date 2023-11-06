@@ -6,6 +6,8 @@ body {
     font-family: "Vidaloka", sans-serif;
 }
 
+/* -------- HEADER + NAV ---------- */
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -85,6 +87,12 @@ body::-webkit-scrollbar {
     padding-top: 50px;
 }
 
+/* -----  CONTENT ------ */
+
+h1 {
+    font-size: 50px;
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -92,12 +100,14 @@ body::-webkit-scrollbar {
 }
 
 .panel {
-    /* width: 100vw;  */
-    height: 75vh;
+    width: 100vw;
+    height: 100vh - 50px;
 }
 
 #one {
     /* background-color: darkred; */
+    height: auto;
+    padding-bottom: 40px;
 }
 
 #oneimg {
@@ -106,25 +116,42 @@ body::-webkit-scrollbar {
     object-fit: cover;
     margin-left: 5vw;
     /* margin-top: 50px; */
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #onetext {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #two {
-    /* background-color: pink; */
-    margin-left: 5vw;
+    background-color: rgb(255, 53, 87);
+    /* margin-left: 5vw; */
+    width: 100vw;
+    min-height: 95vh;
+}
+
+#about_text {
+    width: 40vw;
+    color: white;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #contact {
-    margin-left: 5vw;
+    background-color:rgb(254, 221, 138);
+    width: 100vw;
+    min-height: 95vh;
 }
 
-/* delete this later, for testing purposes */
+#contact h1 {
+    margin-left: 40px;
+}
+
+/* --------- delete this later, for testing purposes */
 .test {
     margin-top: 10px;
     font-size: 150px;
