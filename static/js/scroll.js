@@ -1,6 +1,13 @@
 document.getElementById("aboutbtn").addEventListener("click", 
 () => {
-    document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
+    const id = 'two';
+    const yOffset = -20; 
+    const element = document.getElementById(id);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({top: y, behavior: 'smooth'});
+
+    // document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
 });
 
 document.addEventListener("DOMContentLoaded", () => {

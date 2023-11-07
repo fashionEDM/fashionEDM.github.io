@@ -175,8 +175,8 @@ h1 {
 }
 
 #text-path {
-    font-size: 75px;
-    color: white;
+    font-size: 5rem;
+    fill: white;
 }
 
 /* --------- delete this later, for testing purposes */
