@@ -74,6 +74,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 
 #navbar a {
@@ -164,6 +165,18 @@ h1 {
 
 #contact h1 {
     margin-left: 40px;
+}
+
+#path {
+    width: 100vw;
+    position: relative;
+    margin-top: -75vh;
+    z-index: 0;
+}
+
+#text-path {
+    font-size: 75px;
+    color: white;
 }
 
 /* --------- delete this later, for testing purposes */
