@@ -146,15 +146,32 @@ h1 {
     /* margin-left: 5vw; */
     width: 100vw;
     min-height: 95vh;
+    position: relative;
+}
+
+#path {
+    width: 100vw;
+    margin-top: 0vh;
+    min-height: 95vh;
+    position: relative;
+    /* margin-top: -75vh; */
+    z-index: 0;
+}
+
+#text-path {
+    font-size: 5rem;
+    fill: white;
 }
 
 #about_text {
-    width: 40vw;
+    width: 30vw;
     color: white;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    position: absolute;
+    top: 0;
 }
 
 #contact {
@@ -167,17 +184,6 @@ h1 {
     margin-left: 40px;
 }
 
-#path {
-    width: 100vw;
-    position: relative;
-    margin-top: -75vh;
-    z-index: 0;
-}
-
-#text-path {
-    font-size: 5rem;
-    fill: white;
-}
 
 /* --------- delete this later, for testing purposes */
 .test {
