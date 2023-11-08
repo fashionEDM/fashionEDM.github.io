@@ -1,19 +1,19 @@
-document.getElementById("aboutbtn").addEventListener("click", 
-() => {
-    const id = 'two';
-    const yOffset = -20; 
-    const element = document.getElementById(id);
-    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-    window.scrollTo({top: y, behavior: 'smooth'});
-
-    // document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
-});
-
 document.addEventListener("DOMContentLoaded", () => {
     const textPath = document.getElementById("text-path")
     const scrollSpeed = 1;
     const startPosition = -100;
+
+    document.getElementById("aboutbtn").addEventListener("click", 
+    () => {
+        const id = 'two';
+        const yOffset = -20; 
+        const element = document.getElementById(id);
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        window.scrollTo({top: y, behavior: 'smooth'});
+
+        // document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
+    });
     
     const updateTextPosition = () => {
         const container = document.getElementById("path");
