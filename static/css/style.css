@@ -151,11 +151,12 @@ h1 {
 
 #path {
     width: 100vw;
-    margin-top: 0vh;
+    /* margin-top: 0vh; */
     min-height: 95vh;
     position: relative;
-    /* margin-top: -75vh; */
+    margin-top: 15vh;
     z-index: 0;
+    /* transform:scaleY(.2) */
 }
 
 #text-path {
@@ -165,7 +166,7 @@ h1 {
 }
 
 #about_text {
-    width: 30vw;
+    width: 40vw;
     color: white;
     margin-left: 40px;
     display: flex;
@@ -174,6 +175,18 @@ h1 {
     position: absolute;
     top: 0;
 }
+
+/* #about_text_right {
+    margin-right: 0;
+    margin-left: auto;
+    width: 30vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -10%;
+    position: relative;
+} */
 
 @media only screen and (max-width: 600px) {
     #about_text {

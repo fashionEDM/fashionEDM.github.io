@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         window.scrollTo({top: y, behavior: 'smooth'});
 
-        // document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
+        document.getElementById("two").scrollIntoView({behavior: "smooth", block: "center"});
     });
     
     const updateTextPosition = () => {
