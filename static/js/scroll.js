@@ -26,5 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
             textPath.setAttribute("startOffset", startOffset + "%");
         }
     }
-    window.addEventListener("scroll", updateTextPosition);
+    // uncomment below to change back to move-on-scroll version
+    // window.addEventListener("scroll", updateTextPosition);
 })
