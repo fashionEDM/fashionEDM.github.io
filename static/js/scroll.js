@@ -27,5 +27,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     // uncomment below to change back to move-on-scroll version
-    // window.addEventListener("scroll", updateTextPosition);
+    window.addEventListener("scroll", updateTextPosition);
 })
